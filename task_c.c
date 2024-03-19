@@ -2,7 +2,7 @@
 int main(void){
     char my_email[]="bo.zhang-17@student.manchester.ac.uk";
     int n=0;
-	printf("Enter an integer:");
+	printf("Enter an integer: ");
 	scanf("%d", &n);
 	
 	
