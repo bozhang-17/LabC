@@ -7,11 +7,11 @@ int main(void){
 	
 	
 	// Your code below here
-    if(n<<0)
+    if(n<0)
     {printf("Error");}
-    if(n>>36)
+    else if(n>36)
     {printf("Error"); }
-    if(my_email[n]=='a')
+    else if(my_email[n]=='a')
 	{printf("Vowel"); }// place as needed in the code. You can use more than once.
 	else if(my_email[n]=='e')
 	{printf("Vowel"); }
